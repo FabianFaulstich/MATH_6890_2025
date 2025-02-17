@@ -110,14 +110,14 @@ Check: Check whether your program produces these results
 
 # ╔═╡ Cell order:
 # ╟─f4a7ca5a-c45b-11ef-2d6e-8fbb64e89f8a
-# ╟─64b71987-1436-45b2-87c5-eaad577b76f0
+# ╠═64b71987-1436-45b2-87c5-eaad577b76f0
 # ╟─333b6eff-7cca-4b54-88d0-5ef40d2c3373
 # ╠═00f519a1-4719-404a-989c-0f2fd74faf41
 # ╟─65552674-4a15-4871-ac0d-22339ebc3c98
 # ╠═7ed677c9-2716-48cc-b13c-c3aebecad636
 # ╟─4f059050-4bc5-4eef-99ea-813d878a41e4
 # ╟─e659b738-5fee-4f39-890e-249583b45018
-# ╟─27edf672-bdde-4e6b-948c-e68259278f30
+# ╠═27edf672-bdde-4e6b-948c-e68259278f30
 # ╟─27b56b77-3a86-4125-a079-864bf64c90af
 # ╟─650e8c59-3fa0-490e-9a97-5cf0f52c0842
 # ╠═16c8af8b-546b-4cc5-9201-74ba2f7cc738
