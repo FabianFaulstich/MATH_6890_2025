@@ -28,7 +28,7 @@ Your solution goes here ...
 
 # ╔═╡ ed97e184-f667-4beb-a68e-b9ff6453dbf7
 md" #### Exercise 2:
-Compute the one-body part of the electron-nucleus attraction for Slater determinants, i.e., 
+Prove the expression for the expectation value of the electron-nucleus attraction for Slater determinants, i.e., 
 
 ``
 $
@@ -149,7 +149,7 @@ Plot your computed potential energy surface and compare with the data provided i
 # ╟─4e273a42-8e69-403d-8741-22c9aa2b9b8a
 # ╟─a8921fb3-d2fb-49da-b2ab-aa4348171a90
 # ╟─a9354c71-c8e9-4e19-8eb4-1934bc6b1db3
-# ╠═f69d05f3-c8bd-49f6-9124-1801399df434
+# ╟─f69d05f3-c8bd-49f6-9124-1801399df434
 # ╠═0d3d1dbc-2bc0-4314-9467-d298fda50a3d
 # ╟─9aa4ae3d-dfcb-4914-a0aa-5e0c05078649
 # ╠═dbd3d78c-1bd1-44ff-99af-a18dfe8dbfcf
