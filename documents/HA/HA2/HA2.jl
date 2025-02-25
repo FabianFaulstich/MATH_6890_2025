@@ -111,7 +111,7 @@ Using the overlap matrices in files/equi$\_$geom, write a self-consisten field i
 "
 
 # ╔═╡ 934fc34a-cd11-44ea-8766-a045398dc13a
-
+# Your code goes here
 
 # ╔═╡ 9c2639af-7e97-4831-b2a7-1e1b6f119ab4
 md" 
@@ -141,14 +141,14 @@ Plot your computed potential energy surface and compare with the data provided i
 
 # ╔═╡ Cell order:
 # ╟─416fc3ba-ea3b-11ef-2ebf-eb59f835a816
-# ╟─9b9a017e-c8fc-4ff3-96a4-93c714ecd706
-# ╟─0775e7a7-67d3-41c5-8d50-05dca096e9c6
-# ╟─a32bf2fb-7b39-4fa3-aabb-473182069bef
-# ╟─ed97e184-f667-4beb-a68e-b9ff6453dbf7
+# ╠═9b9a017e-c8fc-4ff3-96a4-93c714ecd706
+# ╠═0775e7a7-67d3-41c5-8d50-05dca096e9c6
+# ╠═a32bf2fb-7b39-4fa3-aabb-473182069bef
+# ╠═ed97e184-f667-4beb-a68e-b9ff6453dbf7
 # ╟─305d39a3-bd1b-420c-8c16-7f61811c37a1
 # ╟─4e273a42-8e69-403d-8741-22c9aa2b9b8a
 # ╟─a8921fb3-d2fb-49da-b2ab-aa4348171a90
-# ╟─a9354c71-c8e9-4e19-8eb4-1934bc6b1db3
+# ╠═a9354c71-c8e9-4e19-8eb4-1934bc6b1db3
 # ╟─f69d05f3-c8bd-49f6-9124-1801399df434
 # ╠═0d3d1dbc-2bc0-4314-9467-d298fda50a3d
 # ╟─9aa4ae3d-dfcb-4914-a0aa-5e0c05078649
