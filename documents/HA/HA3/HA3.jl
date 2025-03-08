@@ -6,7 +6,7 @@ using InteractiveUtils
 
 # ╔═╡ 7bbcea86-ea52-11ef-307b-ff9eca1f3e29
 md"# Homework assignment
-Due Date: 02/28 by 11:59 pm
+Due Date: 03/17 by 11:59 pm
 
 Fill in your solutions in the Pluto notebook provided below. Once completed, execute the notebook and export it as a PDF. Upload the PDF to Gradescope for grading, and assign the pages to the respective exercises. Please ensure that all of your solutions, including the code you wrote, are visible and legible in the exported PDF before submitting it to Gradescope. Keep in mind that adjustments to assignments after the submission deadline will not be accommodated.
 
@@ -73,7 +73,7 @@ Analytically determine all solutions to the Schrödinger equation fulfilling
 ``
 $
 \left( 
-n_{1, \uparrow} n_{1, \downarrow} + n_{2, \uparrow} n_{2, \downarrow}
+n_{1, \uparrow} + n_{1, \downarrow} + n_{2, \uparrow} + n_{2, \downarrow}
 \right) |\Psi \rangle 
 =
 2 |\Psi \rangle 
@@ -92,15 +92,15 @@ md"# Programming Problems"
 
 # ╔═╡ f25723cb-92de-44e8-a15c-26f0488f2e55
 md" #### Exercise 4:
-Write two functions that generate $a_p$ and $a_p^\dagger$ provided $K$ and $p$ as input.
+Write two functions that generate $a_{p, s}$ and $a_{p,s}^\dagger$ given $K\in\mathbb{N}$, $p\in [\![K]\!]$ and $s \in \{\frac{1}{2}, -\frac{1}{2}\}$.
 "
 
 # ╔═╡ d57b9c45-5ffb-4d35-8f92-3c830bdd37c1
-
+# Your code goes here
 
 # ╔═╡ 519aa138-01a5-4984-80f3-89f3b570d697
 md" 
-Verify your code by checking the CAR for the generated matrices $a_p$ and $a_p^\dagger$. 
+Verify your code by checking the CAR for the generated matrices $a_{p, s}$ and $a_{p,s}^\dagger$.
 "
 
 # ╔═╡ 1f9db2af-8d79-4e43-8df4-6fc3eb91e07d
@@ -112,14 +112,14 @@ Write a function that generates the Hamiltonian
 
 ``
 $
-H = U \sum_{i=1}^{n} n_{i, \uparrow} n_{i, \downarrow} + t \sum_{\sigma \in \{\uparrow, \downarrow\}}\sum_{\substack{i,j = 1\\ \langle i, j\rangle = 1}}^{n} (a_{i,\sigma}^\dagger a_{j,\sigma} + c.c.)
+H = U \sum_{i=1}^{K} n_{i, \uparrow} n_{i, \downarrow} + t \sum_{\sigma \in \{\uparrow, \downarrow\}}\sum_{\substack{i,j = 1\\ \langle i, j\rangle = 1}}^{K} (a_{i,\sigma}^\dagger a_{j,\sigma} + c.c.)
 $
 ``
 provided the input $U$, $t$, and $n$.
 "
 
 # ╔═╡ 1b779c70-62b5-4a2c-9a2c-6206040b0d6f
-
+# Your code goes here
 
 # ╔═╡ 6c0e6e61-f2ed-4c4f-956b-3a3994699eb7
 md" 
@@ -130,12 +130,23 @@ Verify your code by checking your analytic solution to Exercise 3.
 # Your code goes here
 
 # ╔═╡ 98740918-811d-474d-9e0f-034e3c5dc6c9
-md" #### Exercise 6:
+md" #### Exercise 6 (Metal to Mott Insulator at Half-Filling):
+At half-filling (one electron per site), the system undergoes a phase transition as $U$ increases:
 
+For $U=0$ (the non-Interacting Limit): 
+The system is a Luttinger liquid (gapless metallic state) with a well-defined Fermi surface. 
+
+For $U>0$ but small: 
+The system remains metallic, but correlation effects modify the low-energy behavior.
+
+For $U\gg t$ (Strong Coupling Limit): 
+The system enters a Mott insulating phase where charge transport is suppressed due to the energy cost of double occupancy. A charge gap opens, preventing conductivity.
+
+Show this phase transition numerically.
 "
 
 # ╔═╡ a3a453d6-0928-4f4d-9703-4ca6665aca5b
-
+# Your code goes here
 
 # ╔═╡ Cell order:
 # ╟─7bbcea86-ea52-11ef-307b-ff9eca1f3e29
@@ -155,5 +166,5 @@ md" #### Exercise 6:
 # ╠═1b779c70-62b5-4a2c-9a2c-6206040b0d6f
 # ╟─6c0e6e61-f2ed-4c4f-956b-3a3994699eb7
 # ╠═184e1b3b-7e1d-444a-adbb-e5edfc1d75e4
-# ╠═98740918-811d-474d-9e0f-034e3c5dc6c9
+# ╟─98740918-811d-474d-9e0f-034e3c5dc6c9
 # ╠═a3a453d6-0928-4f4d-9703-4ca6665aca5b
