@@ -21,7 +21,7 @@ Prove that
 
 ``
 $
-[a_p^\dagger,a_q] = \delta_{p,q}.
+[a_p^\dagger,a_q]_+ = \delta_{p,q}.
 $
 ``
 "
@@ -59,7 +59,7 @@ $
 H = U \left( 
 n_{1, \uparrow} n_{1, \downarrow} + n_{2, \uparrow} n_{2, \downarrow}
 \right)+ 
-t\left( a_{0,\uparrow}^\dagger a_{1,\uparrow} + a_{1,\uparrow}^\dagger a_{0,\uparrow}+ a_{0, \downarrow}^\dagger a_{1, \downarrow} + a_{1, \downarrow}^\dagger a_{0, \downarrow}
+t\left( a_{1,\uparrow}^\dagger a_{2,\uparrow} + a_{2,\uparrow}^\dagger a_{1,\uparrow}+ a_{1, \downarrow}^\dagger a_{2, \downarrow} + a_{2, \downarrow}^\dagger a_{1, \downarrow}
 \right)
 $
 ``
