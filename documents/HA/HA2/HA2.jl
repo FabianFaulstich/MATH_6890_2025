@@ -148,8 +148,8 @@ Plot your computed potential energy surface and compare with the data provided i
 # ╟─305d39a3-bd1b-420c-8c16-7f61811c37a1
 # ╟─4e273a42-8e69-403d-8741-22c9aa2b9b8a
 # ╟─a8921fb3-d2fb-49da-b2ab-aa4348171a90
-# ╠═a9354c71-c8e9-4e19-8eb4-1934bc6b1db3
-# ╟─f69d05f3-c8bd-49f6-9124-1801399df434
+# ╟─a9354c71-c8e9-4e19-8eb4-1934bc6b1db3
+# ╠═f69d05f3-c8bd-49f6-9124-1801399df434
 # ╠═0d3d1dbc-2bc0-4314-9467-d298fda50a3d
 # ╟─9aa4ae3d-dfcb-4914-a0aa-5e0c05078649
 # ╠═dbd3d78c-1bd1-44ff-99af-a18dfe8dbfcf
@@ -157,7 +157,7 @@ Plot your computed potential energy surface and compare with the data provided i
 # ╠═934fc34a-cd11-44ea-8766-a045398dc13a
 # ╟─9c2639af-7e97-4831-b2a7-1e1b6f119ab4
 # ╠═492dae7d-7af2-4da6-9953-997b8bbaed23
-# ╟─7eed4ff4-1568-4991-8139-e6a6dd4f230d
+# ╠═7eed4ff4-1568-4991-8139-e6a6dd4f230d
 # ╠═ef8ccae6-f036-476b-b890-dc0ce31b2c85
 # ╟─f23c17cb-9215-4c7a-a4df-d2ae3e567763
 # ╠═e86ba48c-5964-4564-828d-d771e0f03c4f
