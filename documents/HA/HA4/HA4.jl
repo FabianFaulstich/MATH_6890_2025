@@ -105,8 +105,8 @@ Plot your computed potential energy surface reporting the total energy and compa
 
 # ╔═╡ Cell order:
 # ╟─d95860c8-fd62-11ef-28ea-cb69ddf9b2bc
-# ╟─7f173786-b882-4753-85e9-4fd15ab38df1
-# ╟─a9e8faf1-ed3f-49b9-9fb2-3959893c1c1b
+# ╠═7f173786-b882-4753-85e9-4fd15ab38df1
+# ╠═a9e8faf1-ed3f-49b9-9fb2-3959893c1c1b
 # ╠═93e8518f-a89b-418b-93b3-a7e402f21246
 # ╟─51c605cc-7725-4a31-9fcf-f9e8576bf942
 # ╠═af40db75-a153-460f-bfbd-3bd8a945403d
